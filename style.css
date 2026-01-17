@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
+*{color:red;
+font-family: "Lato", sans-serif;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+H1, H2, H3, H4, H5, H6, span {
+    color: black;
+    text-align: center;
+    line-height: 1.25;
+}
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+li{
+    list-style: none;
+}
+
+/*navbar styles*/
+.logo{
+    margin-left: 16px;
+    border-radius: 10px;
+    padding: 8px 16px;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #1B4332;
+}
+.nav__link--list{
+    display: flex;
+    gap: 40px;
+    margin-right: 16px;
+}
+.nav__link--anchor{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #B7E4C7;
+}
+.nav__link--anchor-primary{
+    background-color: #2D6A4F;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+.nav__link--anchor-primary:hover{
+    background-color: #40916C;
+    transition: background-color 0.3s ease-in;
+
